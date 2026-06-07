@@ -21,6 +21,7 @@ function DiscoveryForm({ onAddDiscovery }: DiscoveryFormProps) {
             return;
         }
 
+
         onAddDiscovery({ name, type, distance, image });
 
         setName('');
