@@ -5,3 +5,4 @@ export interface AstroObject {
     distance: string;
     image: string;
 }
+
