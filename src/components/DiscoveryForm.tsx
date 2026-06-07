@@ -2,6 +2,7 @@ import { useState } from 'react';
 import type { FormEvent } from 'react';
 import type { AstroObject } from '../types';
 
+
 interface DiscoveryFormProps {
     onAddDiscovery: (newDiscovery: Omit<AstroObject, 'id'>) => void;
 }
