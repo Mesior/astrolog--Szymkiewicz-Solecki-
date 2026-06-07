@@ -4,6 +4,7 @@ interface ObjectDetailsProps {
     selectedObject: AstroObject | null;
 }
 
+
 function ObjectDetails({ selectedObject }: ObjectDetailsProps) {
     if (!selectedObject) {
         return (
