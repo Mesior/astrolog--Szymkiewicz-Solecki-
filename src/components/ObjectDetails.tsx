@@ -15,6 +15,7 @@ function ObjectDetails({ selectedObject }: ObjectDetailsProps) {
         );
     }
 
+
     return (
         <div className="object-details">
             <h2>Panel Obserwacyjny: {selectedObject.name}</h2>
