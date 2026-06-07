@@ -72,6 +72,7 @@ body {
   gap: 20px;
 }
 
+
 .object-details, .discovery-form {
   background: var(--panel-bg);
   padding: 25px;
