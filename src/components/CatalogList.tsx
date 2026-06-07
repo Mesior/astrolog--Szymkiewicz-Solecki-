@@ -1,5 +1,6 @@
 import type { AstroObject } from '../types';
 
+
 interface CatalogListProps {
     objects: AstroObject[];
     onSelectObject: (obj: AstroObject) => void;
