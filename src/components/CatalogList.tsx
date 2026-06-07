@@ -26,4 +26,6 @@ function CatalogList({ objects, onSelectObject }: CatalogListProps) {
     );
 }
 
+
+
 export default CatalogList;
