@@ -17,6 +17,7 @@ const initialObjects: AstroObject[] = [
     { id: 5, name: "Kometa Halleya", type: "Kometa", distance: "Zmienna", image: "https://images.unsplash.com/photo-1464802686167-b939a6910659?w=500&q=80" }
 ];
 
+
 function App() {
     const [objects, setObjects] = useState<AstroObject[]>(initialObjects);
     const [selectedObject, setSelectedObject] = useState<AstroObject | null>(null);
